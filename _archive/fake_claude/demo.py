@@ -1,4 +1,4 @@
-from client import AnthropicClient
+from _archive.client import AnthropicClient
 
 client = AnthropicClient()
 

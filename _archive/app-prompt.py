@@ -3,7 +3,7 @@ from utils.prompt import (
     build_summary_prompt_b,
     build_summary_prompt_c
 )
-from utils.api_client import call_model
+from _archive.api_client import call_model
 
 with open("test.txt", "r", encoding="utf-8") as f:
     text = f.read()

@@ -1,5 +1,5 @@
 import requests
-from config import API_KEY, API_URL, MODEL_NAME
+from _archive.config import API_KEY, API_URL, MODEL_NAME
 
 class AnthropicClient:
     def __init__(self):
